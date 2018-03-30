@@ -233,8 +233,6 @@ int main(int argc, char * argv[])
         cout << "Usage: IP port response_timeout(in seconds) mode(0-UDP,1-TCP)" << endl;
         return 2;
     }
-    //int TCP_in=atoi(argv[1]);
-    //int UDP_in=atoi(argv[2]);
     if(!atoi(argv[4]))
     {
         UDP_send(argv[1],atoi(argv[2]),atoi(argv[3]));
